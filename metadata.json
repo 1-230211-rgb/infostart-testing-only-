@@ -1,0 +1,6 @@
+{
+  "name": "Asiatech InfoStart",
+  "description": "Official orientation gateway for Asia Technological School of Science and Arts (ASIATECH) Orientation 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,61 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1400" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f4423" />
+      <stop offset="50%" stop-color="#09381c" />
+      <stop offset="100%" stop-color="#052713" />
+    </linearGradient>
+    <linearGradient id="watermarkGrad" x1="800" y1="0" x2="1400" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+    </filter>
+  </defs>
+
+  <!-- Base Card Background -->
+  <rect width="1400" height="520" rx="36" fill="url(#bgGradient)" />
+
+  <!-- Ambient light overlay -->
+  <circle cx="200" cy="100" r="280" fill="#10b981" opacity="0.08" filter="url(#glow)" />
+  <circle cx="1200" cy="400" r="320" fill="#047857" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Watermark Text "ASIATECH" -->
+  <text x="740" y="380" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="190" fill="url(#watermarkGrad)" letter-spacing="4">
+    ASIATECH
+  </text>
+
+  <!-- Inner Content -->
+  <!-- Badge: INSTITUTIONAL PROFILE -->
+  <g transform="translate(70, 65)">
+    <rect width="210" height="34" rx="17" fill="#10b981" fill-opacity="0.22" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.5" />
+    <text x="105" y="22" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="12" fill="#a7f3d0" text-anchor="middle" letter-spacing="1.5">
+      INSTITUTIONAL PROFILE
+    </text>
+  </g>
+
+  <!-- Title: Asia Technological School of Science and Arts -->
+  <text x="70" y="165" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="46" fill="#ffffff" letter-spacing="-0.5">
+    Asia Technological School of
+  </text>
+  <text x="70" y="225" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="46" fill="#ffffff" letter-spacing="-0.5">
+    Science and Arts
+  </text>
+
+  <!-- Motto: "Your key to global success!" -->
+  <text x="70" y="280" font-family="Georgia, Cambria, serif" font-style="italic" font-weight="600" font-size="28" fill="#86efac">
+    "Your key to global success!"
+  </text>
+
+  <!-- Description paragraph -->
+  <text x="70" y="345" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="17" fill="#d1fae5" fill-opacity="0.92" letter-spacing="0.2">
+    Located in the heart of Santa Rosa City, Laguna, ASIATECH is committed to providing industry-relevant
+  </text>
+  <text x="70" y="375" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="17" fill="#d1fae5" fill-opacity="0.92" letter-spacing="0.2">
+    education in computing, technology, business, tourism, hospitality, and secondary education,
+  </text>
+  <text x="70" y="405" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="17" fill="#d1fae5" fill-opacity="0.92" letter-spacing="0.2">
+    producing globally competitive graduates.
+  </text>
+</svg>
